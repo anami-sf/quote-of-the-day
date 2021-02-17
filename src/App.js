@@ -44,7 +44,7 @@ export default function App() {
 
       <Quote quote={quote} />
       <button onClick={getQuoteList}> Get Quote List </button>
-      <h2>Quote List</h2>
+      <h2>Quote List Full</h2>
       {quoteList.map((singleQuote) => {
         return <Quote quote={singleQuote} key={singleQuote.id} />;
       })}
