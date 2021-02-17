@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  background: lightblue;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.quoteBox {
+  margin: 10px;
+}
+.quote {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background: whitesmoke;
+  border-radius: 5px;
+}
+
+.main div {
+  padding: 5px;
+}
+
+.main div:nth-last-child(1) {
+  font-size: 10px;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
